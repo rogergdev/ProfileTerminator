@@ -5,6 +5,8 @@
 
 **ProfileTerminator** es una herramienta escrita en Python que permite eliminar perfiles de usuario en sistemas Windows de forma segura y eficiente, tanto del registro como del sistema de archivos, incluyendo aquellos archivos que puedan estar bloqueados por procesos que estén en ejecución.
 
+![ProfileTerminator](https://github.com/user-attachments/assets/e61add40-0fc7-4c4a-845f-cfaeeb8843e0)
+
 ---
 
 ## 🛠️ **Características principales**
