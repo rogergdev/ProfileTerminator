@@ -438,7 +438,7 @@ def main():
 
     footer = tk.Label(
         main_frame,
-        text="© Roger García",
+        text="© rogergdev",
         font=("Segoe UI", 10),
         fg="#dddddd",
         bg="#000000"
