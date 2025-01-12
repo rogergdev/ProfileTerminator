@@ -3,15 +3,15 @@
 
 # ProfileTerminator
 
-**ProfileTerminator** es una herramienta escrita en Python que permite eliminar perfiles de usuario en sistemas Windows de forma segura y eficiente, tanto del registro como del sistema de archivos, incluyendo aquellos archivos que puedan estar bloqueados por procesos en ejecución.
+**ProfileTerminator** es una herramienta escrita en Python que permite eliminar perfiles de usuario en sistemas Windows de forma segura y eficiente, tanto del registro como del sistema de archivos, incluyendo aquellos archivos que puedan estar bloqueados por procesos que estén en ejecución.
 
 ---
 
 ## 🛠️ **Características principales**
 
-- Eliminación de perfiles de usuario en Windows desde el registro.
-- Eliminación segura de carpetas y archivos asociados a los perfiles.
-- Capacidad para tomar propiedad de archivos protegidos.
+- Eliminación de perfiles desde el registro de Windows.
+- Eliminación segura de sus carpetas y archivos (los que están asociados a los perfiles).
+- Puede tomar propiedad de archivos protegidos.
 - Interfaz gráfica amigable construida con **Tkinter**.
 - Progreso visual durante la eliminación de archivos.
 - Detección y cierre de procesos que bloquean archivos.
@@ -49,9 +49,9 @@
 
 ## 📋 **Uso**
 
-1. Al abrir la aplicación, se mostrará la lista de perfiles de usuario cargados en el sistema.
+1. Al abrir la aplicación, se mostrará la lista de los perfiles de usuario.
 2. Puedes filtrar usuarios utilizando el campo de búsqueda.
-3. Selecciona los usuarios que deseas eliminar.
+3. Selecciona los usuarios que deseas eliminar (puedes borrar varios a la vez).
 4. Elige entre las siguientes opciones:
    - **Eliminar del Registro:** Borra el perfil del registro de Windows.
    - **Eliminar Usuario y Archivos:** Borra tanto el perfil del registro como los archivos asociados en el sistema.
@@ -81,7 +81,7 @@ ProfileTerminator/
 **ProfileTerminator** incluye medidas de seguridad para:
 - Solicitar permisos de administrador.
 - Prevenir la eliminación del perfil actual del usuario.
-- Manejar archivos bloqueados por procesos activos.
+- Gestionar archivos bloqueados por procesos que estén activos.
 
 ---
 
